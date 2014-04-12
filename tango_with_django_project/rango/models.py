@@ -15,9 +15,3 @@ class Page(models.Model):
 	def __unicode__(self):
 		return self.title
 
-class Test(models.Model):
-	name = models.CharField(max_length=128, unique=True)
-
-	def __unicode__(self):
-		return self.name
-
